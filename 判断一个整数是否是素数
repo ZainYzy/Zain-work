@@ -1,0 +1,15 @@
+"""
+判断一个整数是否是素数
+姚子砚Zain
+version 1.0
+"""
+import math
+def is_prime(num):
+    for x in range(2,int(math.pow(num,0.5)+1)):
+        if num % x == 0:
+            return false
+        return True if num != 1 else False
+y=int(input("请输入一个数字"))
+if is_prime(y):
+    print("Yes")
+else: print("NO")
