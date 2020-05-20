@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>练习一</title>
+	<script type="text/javascript">
+		
+		function answer()
+		{
+			var x="答案是厉"
+			document.getElementById("demo").innerHTML=x;
+		}
+	</script>
+	</head>
+	<body>
+		<p id="demo">此字真是特别，竟然是一万多撇。（打一字）</p>
+		<button onclick="answer()">查看答案</button>
+	</body>
+</html>
+
+<!--下面是链接外部js -->
+<!--js -->
+function answer()
+		{
+			var x="答案是厉"
+			document.getElementById("demo").innerHTML=x;
+		}
+<!--html -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	<script src="js/text1.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<p id="demo">此字真是特别，竟然是一万多撇。（打一字）</p>
+		<button onclick="answer()">查看答案</button>
+	</body>
+</html>
+
+
+
