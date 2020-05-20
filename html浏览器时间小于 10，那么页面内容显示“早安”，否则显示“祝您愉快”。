@@ -1,0 +1,28 @@
+<!--姚子砚Zain version1.0 -->
+<!--浏览器时间小于 10，那么页面内容显示“早安”，否则显示“祝您愉快”。-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>练习三</title>
+	<script type="text/javascript">
+		function myFunction()
+		{
+		var d=new Date();
+		var time=d.getHours();
+		if (time<10)
+		  {
+		  document.getElementById("demo").innerHTML="早安";
+		  }
+		else
+		  {
+		  document.getElementById("demo").innerHTML="祝您愉快";
+		  }
+		}
+
+	</script>
+	</head>
+	<body onload="myFunction()">
+		<p id="demo"></p>
+	</body>
+</html>
