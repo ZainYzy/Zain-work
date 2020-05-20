@@ -1,0 +1,23 @@
+<!--姚子砚Zain version1.0 -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>练习2</title>
+	<script type="text/javascript">
+		function myfunction()
+		{
+			var str=prompt("请输入您的名字","Zain");
+			    if(str)
+			    {
+			      document.getElementById("demo").innerHTML="你好！"+ str+"今天过得怎么样？";
+			    }
+		}
+		
+	</script>
+	</head>
+	<body>
+		<button  type="button" onclick="myfunction()">显示提示框</button>
+		<p id="demo"></p>
+	</body>
+</html>
