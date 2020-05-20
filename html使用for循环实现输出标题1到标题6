@@ -1,0 +1,22 @@
+<!--使用for循环实现输出标题1到标题6js -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>练习4</title>
+		<script type="text/javascript">
+			function myFunction(){
+				var x="",i;
+				for (i=1;i<6;i++){
+					x=x+"<h"+i+">这是标题"+i+"</h"+i+">";
+				}<!--for循环 -->
+				document.getElementById("demo").innerHTML=x;
+			}
+		</script>
+	</head>
+	<body onload="myFunction()">
+		<div id="demo">
+			
+		</div><!--div确保可以换行显示 -->
+	</body>
+</html>
